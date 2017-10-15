@@ -1,0 +1,17 @@
+.sprite-fb-icon {
+    width: 12px;
+    height: 22px;
+    background-position: -30px -30px;
+}
+
+.sprite-insta-icon {
+    width: 21px;
+    height: 21px;
+    background-position: -30px -112px;
+}
+
+.sprite-vk-icon {
+    width: 26px;
+    height: 15px;
+    background-position: -30px -193px;
+}

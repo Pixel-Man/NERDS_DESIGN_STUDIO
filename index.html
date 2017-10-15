@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Дизайн-студия Nerd's</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <header class="main-header" aria-label="Меню">
+    <div class="container container-header">
+      <img src="./img/logo.png" alt="Nerd's" width="160" height="65">
+      <nav class="main-nav">
+        <ul class="nav-items">
+          <li><a href="#">Студия</a></li>
+          <li><a href="#">Клиенты</a></li>
+          <li><a href="#">Магазин</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+        <ul class="basket-item">
+          <li><a href="#">Корзина</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="main-slider">
+      <input type="radio" id="btn-1" name="toggle" checked>
+      <input type="radio" id="btn-2" name="toggle">
+      <input type="radio" id="btn-3" name="toggle">
+      <div class="main-slides" aria-label="Слайдер">
+        <nav class="slider-control">
+          <label for="btn-1"></label>
+          <label for="btn-2"></label>
+          <label for="btn-3"></label>
+        </nav>
+        <div class="slides-wrpper">
+          <div class="main-slide">
+            <h2>Долго, дорого, скрупулезно.</h2>
+            <p>Математически выверенный дизайн<br>для вашего сайта или мобильного приложения.</p>
+            <a href="#" class="btn btn-slider">Узнать больше</a>
+          </div>
+          <div class="main-slide">
+            <h2>Любим математику как никто другой</h2>
+            <p>Никакого креатива, только математические формулы<br>для расчета идеальных пропорций.</p>
+            <a href="#" class="btn btn-slider">Узнать больше</a>
+          </div>
+          <div class="main-slide">
+            <h2>Только ночь,<br>
+            только хардкор</h2>
+            <p>Работать днем, как все? Мы против этого.<br>Ближе к полуночи работа только начинается.</p>
+            <a href="#" class="btn btn-slider">Узнать больше</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <h1 class="visually-hidden">Дизайн-студия Nerd's</h1>
+    <div class="main-services" aria-label="Мы делаем">
+      <div class="main-service">
+        <img src="./img/web_main.png" alt="Веб-сайты" width="300" height="146">
+        <h2>Веб-сайты</h2>
+        <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+        <a class="btn btn-web" href="#">Заказать</a>
+      </div>
+      <div class="main-service">
+        <img src="./img/apps_main.png" alt="Приложения" width="300" height="146">
+        <h2>Приложения</h2>
+        <p>Покорите топ-10 приложений в AppStore и Google Play</p>
+        <a class="btn btn-apps" href="#">Заказать</a>
+      </div>
+      <div class="main-service">
+        <img src="./img/presentation_main.png" alt="Презентации" width="300" height="146">
+        <h2>Презентации</h2>
+        <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+        <a class="btn btn-presentation" href="#">Заказать</a>
+      </div>
+    </div>
+    <div class="br"></div>
+    <section class="main-description">
+      <div class="description-left" aria-label="О нас">
+        <h2>Мы — маленькая, но гордая дизайн-студия из Краснодара.</h2>
+        <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+        <b>Выполняем заказы на разработку:</b>
+        <ul>
+          <li>Веб-сайтов любой сложности</li>
+          <li>Мобильных приложений для iOS и Android</li>
+          <li>Слайдшоу и видео для корпоративных презентаций</li>
+        </ul>
+      </div>
+      <div class="description-right" aria-label="Преимущества">
+        <img src="img/nerds_illustration.jpg" alt="" width="360" height="208">
+        <b>с 2004 года Любим точность во всем:</b>
+        <ul aria-label="Перечень преимуществ">
+          <li><span class="percent">146</span><br>Уровень самоотдачи</li>
+          <li><span class="percent">100</span><br>Соблюдение сроков</li>
+          <li><span class="percent">50</span><br>Минимальная предоплата</li>
+        </ul>
+      </div>
+    </section>
+    <div class="clients" aria-label="Наши клиенты">
+      <div class="client">
+        <a href="#"><img src="img/html_academy_logo.png" alt="HTML Academy" width="199" height="68"></a>
+      </div>
+      <div class="client">
+        <a href="#"><img src="img/borodinski_logo.png" alt="Borodinski" width="209" height="90"></a>
+      </div>
+      <div class="client">
+        <a href="#"><img src="img/pink_logo.png" alt="Pink" width="185" height="52"></a>
+      </div>
+      <div class="client">
+        <a href="#"><img src="img/mishka_logo.png" alt="Mishka" width="173" height="84"></a>
+      </div>
+    </div>
+    <div class="main-map" aria-label="Наше местоположение">
+      <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6039629492595!2d30.321624176719446!3d59.93871356667104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1506265924944" width="100%" height="416" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+      <div class="container">
+        <div class="map-description">
+          <h2>NЁRDS DESIGN STUDIO</h2>
+          <p>191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8</p>
+          <p>тел. +7 (812) 275-75-75</p>
+          <label class="btn map-btn" for="modal-feadback">Напишите нам</label>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="main-footer">
+    <div class="container container-footer">
+      <div class="footer-social" aria-label="Мы в соц-сетях">
+        <a href="#" class="social-ico social-vk">vk</a>
+        <a href="#" class="social-ico social-fb">fb</a>
+        <a href="#" class="social-ico social-inst">instagram</a>
+      </div>
+      <section class="social-info">
+        <h2>Давайте дружить, это выгодно!</h2>
+        <p>Скидка 10% для друзей из социальных сетей.</p>
+      </section>
+    </div>
+  </footer>
+
+  <!-- ==== Modal Feadback ==== -->
+  <input class="popup-modal" type="checkbox" id="modal-feadback">
+  <div class="popup-wrapper">
+    <label class="feadback-closs" for="modal-feadback"></label>
+    <div class="feadback">
+      <div class="feadback-row">
+        <h2>Напишите нам</h2>
+        <label class="closs-feadback" for="modal-feadback"></label>
+      </div>
+      <form class="feadback-form" action="#" method="post">
+        <div class="feadback-row">
+          <div class="feadback-column">
+            <label for="name">Ваше имя:</label>
+            <input type="text" name="name" id="name" placeholder="Представьтесь, пожалуйста" autofocus required>
+          </div>
+          <div class="feadback-column">
+            <label for="email">Ваш e-mail:</label>
+            <input type="email" name="email" id="email" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}" placeholder="Для отправки ответа" required>
+          </div>
+        </div>
+        <label for="message">Текст письма:</label>
+        <textarea name="message" id="message" placeholder="В свободной форме"></textarea>
+        <input class="btn btn-feadback" type="submit" value="Отправить">
+      </form>
+    </div>
+  </div>
+
+  <!-- ==== Modal Feadback ==== -->
+<script src="./js/scripts.js"></script>
+</body>
+
+</html>
