@@ -787,6 +787,16 @@ body {
   right: 40%;
 }
 
+.catalog .range-value {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+}
+
 .catalog .value-title {
   margin-right: 12px;
   font-size: 16px;
@@ -804,10 +814,6 @@ body {
   background-color: #eeeeee;
   border: none;
   border-radius: 3px;
-}
-
-.catalog .value-number:not(:last-of-type) {
-  margin-right: 21px;
 }
 
 .catalog .filter-grid {
