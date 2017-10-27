@@ -6,21 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Дизайн-студия Nerd's</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
-  <link rel="stylesheet" href="./css/normalize.css">
-  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:500,700&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
   <header class="main-header" aria-label="Меню">
     <div class="container container-header">
-      <img src="./img/logo.png" alt="Nerd's" width="160" height="65">
+      <a href="index.html">
+        <img src="img/logo.png" alt="Nerd's" width="160" height="65">
+      </a>
       <nav class="main-nav">
         <ul class="nav-items">
-          <li><a href="#">Студия</a></li>
+          <li><a class="active">Студия</a></li>
           <li><a href="#">Клиенты</a></li>
-          <li><a href="#">Магазин</a></li>
+          <li><a href="./catalog.html">Магазин</a></li>
           <li><a href="#">Контакты</a></li>
         </ul>
         <ul class="basket-item">
@@ -64,19 +66,19 @@
     <h1 class="visually-hidden">Дизайн-студия Nerd's</h1>
     <div class="main-services" aria-label="Мы делаем">
       <div class="main-service">
-        <img src="./img/web_main.png" alt="Веб-сайты" width="300" height="146">
+        <img src="img/web_main.png" alt="Веб-сайты" width="300" height="146">
         <h2>Веб-сайты</h2>
         <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
         <a class="btn btn-web" href="#">Заказать</a>
       </div>
       <div class="main-service">
-        <img src="./img/apps_main.png" alt="Приложения" width="300" height="146">
+        <img src="img/apps_main.png" alt="Приложения" width="300" height="146">
         <h2>Приложения</h2>
         <p>Покорите топ-10 приложений в AppStore и Google Play</p>
         <a class="btn btn-apps" href="#">Заказать</a>
       </div>
       <div class="main-service">
-        <img src="./img/presentation_main.png" alt="Презентации" width="300" height="146">
+        <img src="img/presentation_main.png" alt="Презентации" width="300" height="146">
         <h2>Презентации</h2>
         <p>Вы даже не подозреваете, насколько вы изумительны!</p>
         <a class="btn btn-presentation" href="#">Заказать</a>
@@ -118,8 +120,10 @@
         <a href="#"><img src="img/mishka_logo.png" alt="Mishka" width="173" height="84"></a>
       </div>
     </div>
+  </main>
+
+  <footer class="main-footer">
     <div class="main-map" aria-label="Наше местоположение">
-      <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6039629492595!2d30.321624176719446!3d59.93871356667104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1506265924944" width="100%" height="416" frameborder="0" style="border:0" allowfullscreen></iframe> -->
       <div class="container">
         <div class="map-description">
           <h2>NЁRDS DESIGN STUDIO</h2>
@@ -129,9 +133,6 @@
         </div>
       </div>
     </div>
-  </main>
-
-  <footer class="main-footer">
     <div class="container container-footer">
       <div class="footer-social" aria-label="Мы в соц-сетях">
         <a href="#" class="social-ico social-vk">vk</a>
@@ -158,7 +159,7 @@
         <div class="feadback-row">
           <div class="feadback-column">
             <label for="name">Ваше имя:</label>
-            <input type="text" name="name" id="name" placeholder="Представьтесь, пожалуйста" autofocus required>
+            <input type="text" name="name" id="name" placeholder="Представьтесь, пожалуйста" required>
           </div>
           <div class="feadback-column">
             <label for="email">Ваш e-mail:</label>
@@ -172,8 +173,8 @@
     </div>
   </div>
 
-  <!-- ==== Modal Feadback ==== -->
-<script src="./js/scripts.js"></script>
+  <!-- ==== // Modal Feadback ==== -->
+<script src="js/scripts.js"></script>
 </body>
 
 </html>
