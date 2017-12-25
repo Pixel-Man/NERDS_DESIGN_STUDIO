@@ -1,4 +1,4 @@
-# Проект «Глейси»
+# Проект «Nerds»
 
 * Вёрстка: [Виталий Дубинка (Pixel-Man)](https://github.com/Pixel-Man).
 * Макет: [HTML Academy](https://htmlacademy.ru).
